@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+  <link rel="icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="portfolio">
+    <header>
+      <nav class="navbar">
+        <li><a href="#home"><i class="fa-solid fa-house-user"></i>Home</a></li>
+        <li><a href="#about_me"><i class="fa-solid fa-user"></i>About Me</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-desktop"></i>Project/Work</a></li>
+        <li><a href="#skills"><i class="fa-solid fa-brain"></i>Skills</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section class="section active" id="home">
+        <div class="home-container">
+          <div class="left-side">
+            <p class="hey">Hey . . . !</p>
+            <h2 class="name">Sai Ganesh  Bingi here...</h2>
+            <p class="intro">A Passionate Student with Strong Foundation in IT and Full Stack Development.</p>
+          </div>
+          <div class="right-side">
+            <img src="images/portfolio-img.png" alt="admin-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section" id="about_me">
+        <div class="about-container">
+          <div class="left-side">
+            <h2>About</h2>
+            <p class="about-intro">I am Full Stack Dev based in <br> Hyderabad, India</p>
+            <p class="about-details">Full Stack Developer with hands-on expertise in crafting end-to-end solutions for the modern web.</p>
+          </div>
+          <div class="right-side">
+            <img src="images/portfolio-img.png" alt="about-img">
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section" id="projects">
+        <div class="project-container">
+          <div class="projects">
+            <div class="project-card">
+              <img src="images/project-images/project1.png" alt="">
+              <h3 class="project-title">Weather Forecast App | HTML CSS JS</h3>
+              <div>
+                <p class="project-detail">Real-time weather app using API and 4-hour forecast display.</p>
+              </div>
+              <a href="https://github.com/SaiGanesh385/Weather_app" class="link">View Here</a>
+            </div>
+
+            <div class="project-card">
+              <img src="images/project-images/project2.png" alt="">
+              <h3 class="project-title">To-do APP | HTML CSS JS</h3>
+              <div><p class="project-detail">Simple todo app with add and delete functionality.</p></div>
+              <a href="https://github.com/SaiGanesh385/TODO_LIST/tree/main" class="link">View Here</a>
+            </div>
+
+            <div class="project-card">
+              <img src="images/project-images/Hand-Gesture-Tracking.png" alt="">
+              <h3 class="project-title">Volume Controller Using Hand Gestures</h3>
+              <div>
+                <p class="project-detail">Built with Python and OpenCV to control volume using hand gestures.</p>
+              </div>
+              <a href="https://github.com/SaiGanesh385/Volume_controller_using_Finger_Gestures" class="link">View Here</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section" id="skills">
+        <h1>Skills</h1>
+        <p>
+          ● Languages: Python, SQL, JAVA <br>
+          ● Frameworks: Pandas, Numpy, Scikit-Learn, Matplotlib <br>
+          ● Tools: Power BI, Excel, PowerPoint, MySQL <br>
+          ● Platforms: PyCharm, Jupyter Notebook, Visual Studio Code, PowerBI
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section" id="contact">
+        <h1>Contact</h1>
+        <p>Email: saibingi85@gmail.com</p>
+        <p>LinkedIn: www.linkedin.com/in/saiganesh385</p>
+        <p>Phone: +91-8523001257</p>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <p>&copy; 2025 Sai Ganesh | Built with HTML, CSS & JavaScript | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
